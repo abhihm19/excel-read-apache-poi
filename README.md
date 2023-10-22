@@ -1,4 +1,4 @@
-# Spring Boot Employee Details Excel Reader
+# Spring Boot Excel Reader Using Apache POI
 
 ## Description
 
@@ -17,7 +17,7 @@ Before using this project, make sure you have the following prerequisites:
 ## Usage
 
 1. Clone this repository to your local machine:
-    git clone https://github.com/abhihm19/excel-read-apache-poi.git
+    ```git clone https://github.com/abhihm19/excel-read-apache-poi.git```
 2. Navigate to the project directory:
    cd excel-read-apache-poi
 3. Build and run the Spring Boot application using the following command:
