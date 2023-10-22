@@ -17,12 +17,14 @@ Before using this project, make sure you have the following prerequisites:
 ## Usage
 
 1. Clone this repository to your local machine:
-    ```git clone https://github.com/abhihm19/excel-read-apache-poi.git```
-2. Navigate to the project directory:
+    ```
+   git clone https://github.com/abhihm19/excel-read-apache-poi.git
+    ```
+3. Navigate to the project directory:
    cd excel-read-apache-poi
-3. Build and run the Spring Boot application using the following command:
+4. Build and run the Spring Boot application using the following command:
    ./mvnw spring-boot:run
-4. API Endpoint:
+5. API Endpoint:
    GET localhost:8080/read
 In the above endpoint submit the excel file by the name "file". The format of the excel file is described below. Once the API endpoint is hit, you will recieve list of employees data.
 
