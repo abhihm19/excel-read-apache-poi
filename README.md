@@ -37,11 +37,11 @@ In the above endpoint submit the excel file by the name "file". The format of th
 ## Excel File Format
 Make sure that your Excel file follows a specific format with the following columns:
 
-Employee ID (int)
-Name (String)
-Email (String)
-Date of Joining (Date)
-PunchTime (DateTime)
+1. Employee ID (int)
+2. Name (String)
+3. Email (String)
+4. Date of Joining (Date)
+5. PunchTime (DateTime)
 
 
 
