@@ -17,23 +17,23 @@ Before using this project, make sure you have the following prerequisites:
 ## Usage
 
 1. Clone this repository to your local machine:
-    git clone
+    git clone https://github.com/abhihm19/excel-read-apache-poi.git
 2. Navigate to the project directory:
-   cd spring-employee-details-excel-reader
+   cd excel-read-apache-poi
 3. Build and run the Spring Boot application using the following command:
    ./mvnw spring-boot:run
 4. API Endpoint:
-   GET  localhost:8080/read
+   GET localhost:8080/read
 In the above endpoint submit the excel file by the name "file". The format of the excel file is described below. Once the API endpoint is hit, you will recieve list of employees data.
 
 ## Excel File Format
 Make sure that your Excel file follows a specific format with the following columns:
 
-Employee ID
-Name
-Email
-Date of Joining
-PunchTime
+Employee ID (int)
+Name (String)
+Email (String)
+Date of Joining (Date)
+PunchTime (DateTime)
 
 
 
