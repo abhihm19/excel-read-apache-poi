@@ -47,8 +47,8 @@ public class ReadService {
                 	employee.setId((int)cellIterator.next().getNumericCellValue());
                 	employee.setName(cellIterator.next().getStringCellValue());
                 	employee.setEmailId(cellIterator.next().getStringCellValue());
-                	employee.setDateOfJoining(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
-                	employee.setPunchTime(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime());
+                	employee.setDateOfBirth(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
+                	employee.setDateOfJoining(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime());
 
                 	employees.add(employee);
 

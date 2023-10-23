@@ -11,7 +11,7 @@ public class Employee {
 	private int id;
 	private String name;
 	private String emailId;
-	private LocalDate dateOfJoining;
-	private LocalDateTime punchTime;
+	private LocalDate dateOfBirth;
+	private LocalDateTime dateOfJoining;
 
 }
