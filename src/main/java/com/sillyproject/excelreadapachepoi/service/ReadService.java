@@ -2,6 +2,7 @@ package com.sillyproject.excelreadapachepoi.service;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -46,8 +47,8 @@ public class ReadService {
                 	employee.setId((int)cellIterator.next().getNumericCellValue());
                 	employee.setName(cellIterator.next().getStringCellValue());
                 	employee.setEmailId(cellIterator.next().getStringCellValue());
-                	employee.setDateOfJoining(cellIterator.next().getDateCellValue());
-                	employee.setPunchTime(cellIterator.next().getDateCellValue());
+                	employee.setDateOfJoining(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
+                	employee.setPunchTime(cellIterator.next().getDateCellValue().toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime());
 
                 	employees.add(employee);
 

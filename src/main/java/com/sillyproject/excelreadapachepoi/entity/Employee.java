@@ -1,6 +1,7 @@
 package com.sillyproject.excelreadapachepoi.entity;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import lombok.Data;
 
@@ -10,7 +11,7 @@ public class Employee {
 	private int id;
 	private String name;
 	private String emailId;
-	private Date dateOfJoining;
-	private Date punchTime;
+	private LocalDate dateOfJoining;
+	private LocalDateTime punchTime;
 
 }
