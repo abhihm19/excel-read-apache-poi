@@ -40,8 +40,8 @@ Make sure that your Excel file follows a specific format with the following colu
 1. Employee ID (int)
 2. Name (String)
 3. Email (String)
-4. Date of Joining (Date)
-5. PunchTime (DateTime)
+4. Date of Birth (Date)
+5. Date of Joining (DateTime)
 
 
 
